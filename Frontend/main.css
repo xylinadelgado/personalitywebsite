@@ -1,0 +1,36 @@
+.Hero{
+    display: flex;
+    background-color: lightpink;
+    justify-content: center;
+    padding-left: 200px;
+   
+}
+.Q{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+}
+.grid-container{
+    justify-self: center;
+    gap: 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+   grid-template-areas: 
+   "box-1 box-2"
+   "box-3 box-4";
+}
+.item{
+    background-color: pink;
+    padding: 2em;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+button{
+    border-color: blueviolet;
+    background-color: white;
+    border-radius: 1em;
+    font-size: medium;
+}
