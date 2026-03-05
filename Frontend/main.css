@@ -1,40 +1,66 @@
-.Hero{
+.Hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightpink;
-    justify-content: center;
-    padding-left: 200px;
-   
-}
-.Q{
+    padding: 24px;
+  }
+  
+  .Q {
     display: flex;
     justify-content: center;
-    padding-left: 200px;
-}
-.grid-container{
-    justify-self: center;
-    gap: 2em;
+    margin: 24px 0 12px;
+  }
+  
+  /* Applies to your <h2> that isn't using class="Q" (like the Time period one) */
+  h2 {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 12px;
+  }
+  
+  .grid-container {
     display: grid;
+    gap: 2em;
+  
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-   grid-template-areas: 
-   "box-1 box-2"
-   "box-3 box-4";
-}
-.item{
+    grid-template-areas:
+      "box-1 box-2"
+      "box-3 box-4";
+  
+    justify-content: center; /* centers the whole grid */
+    margin-bottom: 32px;
+  }
+  
+  .item {
     background-color: pink;
     padding: 2em;
     color: black;
     text-align: center;
     border-radius: 8px;
-    font-size: 2rem;
-}
-.option-btn{
-    border-color: blueviolet;
+    font-size: 1.25rem;
+  }
+  
+  /* Make your images look consistent */
+  .item img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 12px;
+  }
+  
+  .option-btn {
+    border: 2px solid blueviolet;
     background-color: white;
     border-radius: 1em;
-    font-size: medium;
-    cursor:pointer;
-}
-.option-btn:hover{
+    font-size: 1rem;
+    padding: 10px 14px;
+    cursor: pointer;
+  }
+  
+  .option-btn:hover {
     color: pink;
-}
+  }
