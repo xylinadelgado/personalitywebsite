@@ -1,18 +1,19 @@
+*{
+    background-color: #F1DEDE;
+    color: #5D576B;
+}
 .Hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightpink;
     padding: 24px;
   }
-  
   .Q {
     display: flex;
     justify-content: center;
     margin: 24px 0 12px;
   }
   
-  /* Applies to your <h2> that isn't using class="Q" (like the Time period one) */
   h2 {
     display: flex;
     justify-content: center;
@@ -29,21 +30,19 @@
       "box-1 box-2"
       "box-3 box-4";
   
-    justify-content: center; /* centers the whole grid */
+    justify-content: center; 
     margin-bottom: 32px;
   }
   
   .item {
-    background-color: pink;
     padding: 2em;
     color: black;
     text-align: center;
     border-radius: 8px;
     font-size: 1.25rem;
   }
-  
-  /* Make your images look consistent */
   .item img {
+
     display: block;
     width: 220px;
     height: 220px;
@@ -53,14 +52,26 @@
   }
   
   .option-btn {
-    border: 2px solid blueviolet;
-    background-color: white;
     border-radius: 1em;
     font-size: 1rem;
     padding: 10px 14px;
     cursor: pointer;
   }
+
+  .option-btn:active {
+    background-color: #D496A7;
+    color: black;
+  }
   
   .option-btn:hover {
-    color: pink;
+    color: #D496A7;
+  }
+  .results-area {
+    text-align: center;
+    margin: 32px 0 48px;
+  }
+  
+  #result-display {
+    margin-top: 12px;
+    font-size: 1.2rem;
   }

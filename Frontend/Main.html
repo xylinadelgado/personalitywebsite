@@ -2,377 +2,384 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personality Quiz</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personality Quiz</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
 </head>
 
 <body>
 
-    <div class="Hero">
-        <h1>Which Classic Book are you?</h1>
+  <div class="Hero">
+    <h1>Which Classic Book are you?</h1>
+  </div>
+
+  <div>
+    <h2 class="Q">If I was a card i would chose:</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/qOfHearts.jpeg">
+        <button class="option-btn" data-question="q1" data-scores="2">Queen of Hearts</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">If I was a card i would chose:</h2>
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/7ofSpade.png">
+        <button class="option-btn" data-question="q1" data-scores="4">7 of Spades</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/qOfHearts.jpeg">
-                <button class="option-btn" data-question="q1" data-scores="2">Option 1</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/7ofSpade.jpeg">
-                <button class="option-btn" data-question="q1" data-scores="4">Option 2</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/6ofDiamond.png">
-                <button class="option-btn" data-question="q1" data-scores="3">Option 3</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/QofSpades.png">
-                <button class="option-btn" data-question="q1" data-scores="5">Option 4</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/6ofDiamond.jpeg">
+        <button class="option-btn" data-question="q1" data-scores="3">6 of Diamonds</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">Which animal would describe you best</h2>
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/QofSpades.png">
+        <button class="option-btn" data-question="q1" data-scores="5">Queen of Spades</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
+  </div>
 
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/dolphin.jpeg">
-                <button class="option-btn" data-question="q2" data-scores="5">Option 1</button>
-            </ul>
-        </div>
+  <div>
+    <h2 class="Q">Which animal would describe you best</h2>
+  </div>
 
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/snowleopard.jpeg">
-                <button class="option-btn" data-question="q2" data-scores="2">Snow Leopard</button>
-            </ul>
-        </div>
+  <div class="grid-container">
 
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/bear.jpeg">
-                <button class="option-btn" data-question="q2" data-scores="4">Bear</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/honeybadger.jpeg">
-                <button class="option-btn" data-question="q2" data-scores="3">Honey Badger</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/dolphin.jpeg">
+        <button class="option-btn" data-question="q2" data-scores="5">Dolphin</button>
+      </ul>
     </div>
 
-    <h2>Which Time period would you live in?</h2>
-
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/roman.jpeg">
-                <button class="option-btn" data-question="q3" data-scores="5">Rome</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/victorianEra.jpeg">
-                <button class="option-btn" data-question="q3" data-scores="2">Victorian</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/egypt.jpeg">
-                <button class="option-btn" data-question="q3" data-scores="3">Ancient Egypt</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/jurassic.jpeg">
-                <button class="option-btn" data-question="q3" data-scores="4">Jurassic Era</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/snowleopard.jpeg">
+        <button class="option-btn" data-question="q2" data-scores="2">Snow Leopard</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">What would you do if you found a mysterious door in the woods?</h2>
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/bear.jpeg">
+        <button class="option-btn" data-question="q2" data-scores="4">Bear</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/walkthrudoor.jpeg">
-                <button class="option-btn" data-question="q4" data-scores="5">Walk through the door</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/knockondoor.jpeg">
-                <button class="option-btn" data-question="q4" data-scores="2">Knock on the door first</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/lookatdoor.jpeg">
-                <button class="option-btn" data-question="q4" data-scores="4">Look at the door but never go in</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/unintrested.jpeg">
-                <button class="option-btn" data-question="q4" data-scores="3">Just ignore the door</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/honeybadger.jpeg">
+        <button class="option-btn" data-question="q2" data-scores="3">Honey Badger</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">How do you feel about a rainy Tuesday</h2>
+  </div>
+
+  <h2>Which Time period would you live in?</h2>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/roman.jpeg">
+        <button class="option-btn" data-question="q3" data-scores="5">Rome</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/pretendmovie.jpeg">
-                <button class="option-btn" data-question="q5" data-scores="5">Stare out the window and pretend im in a movie</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/stressed.jpeg">
-                <button class="option-btn" data-question="q5" data-scores="2">I shall sit by the window and contemplate my moral integrity</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/frank.jpeg">
-                <button class="option-btn" data-question="q5" data-scores="4">I will use the atmospheric pressure to conduct a very important experiment</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/rain.jpeg">
-                <button class="option-btn" data-question="q5" data-scores="3">It is raining. I am wet. This is just how Tuesday is. </button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/victorianEra.jpeg">
+        <button class="option-btn" data-question="q3" data-scores="2">Victorian</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">If you were a color which one would you be?</h2>
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/egypt.jpeg">
+        <button class="option-btn" data-question="q3" data-scores="3">Ancient Egypt</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/green.png">
-                <button class="option-btn" data-question="q6" data-scores="4">Neon Green</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/beige.jpeg">
-                <button class="option-btn" data-question="q6" data-scores="3">beige</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/grey.png">
-                <button class="option-btn" data-question="q6" data-scores="2">Misty Grey</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/gold.jpeg">
-                <button class="option-btn" data-question="q6" data-scores="5">Gold</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/jurassic.jpeg">
+        <button class="option-btn" data-question="q3" data-scores="4">Jurassic Era</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">What is your "Final Boss" music</h2>
+  </div>
+
+  <div>
+    <h2 class="Q">What would you do if you found a mysterious door in the woods?</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/walkthrudoor.jpeg">
+        <button class="option-btn" data-question="q4" data-scores="5">Walk through the door</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/piano.jpeg">
-                <button class="option-btn" data-question="q7" data-scores="4">Phantom of The Opera</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/violin.jpeg">
-                <button class="option-btn" data-question="q7" data-scores="5">Dramatic Violin</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/silence.jpeg">
-                <button class="option-btn" data-question="q7" data-scores="3">Silence with an ocassional cricket</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/elevator.jpeg">
-                <button class="option-btn" data-question="q7" data-scores="2">Elevator music</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/knockondoor.jpeg">
+        <button class="option-btn" data-question="q4" data-scores="2">Knock on the door first</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">What loot would you drop if you died(like in minecraft lol)</h2>
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/lookatdoor.jpeg">
+        <button class="option-btn" data-question="q4" data-scores="4">Look at the door but never go in</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/trinkets.jpeg">
-                <button class="option-btn" data-question="q8" data-scores="4">My trinkets</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/selfcare.jpeg">
-                <button class="option-btn" data-question="q8" data-scores="5">My self care items</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/work.jpeg">
-                <button class="option-btn" data-question="q8" data-scores="2">My work equipment</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/nothing.jpeg">
-                <button class="option-btn" data-question="q8" data-scores="3">I wouldn't drop anything</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/unintrested.jpeg">
+        <button class="option-btn" data-question="q4" data-scores="3">Just ignore the door</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">Pick a dream house</h2>
+  </div>
+
+  <div>
+    <h2 class="Q">How do you feel about a rainy Tuesday</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/pretendmovie.jpeg">
+        <button class="option-btn" data-question="q5" data-scores="5">Stare out the window and pretend im in a movie</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="src/house.jpeg">
-                <button class="option-btn" data-question="q9" data-scores="3">A simple house</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="src/cottage.jpeg">
-                <button class="option-btn" data-question="q9" data-scores="2">A cottage</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="src/castle.jpeg">
-                <button class="option-btn" data-question="q9" data-scores="4">A castle</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="src/penthouse.jpeg">
-                <button class="option-btn" data-question="q9" data-scores="">A penthouse</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/stressed.jpeg">
+        <button class="option-btn" data-question="q5" data-scores="2">I shall sit by the window and contemplate my moral integrity</button>
+      </ul>
     </div>
 
-    <div>
-        <h2 class="Q">Question 10</h2>
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/frank.jpeg">
+        <button class="option-btn" data-question="q5" data-scores="4">I will use the atmospheric pressure to conduct a very important experiment</button>
+      </ul>
     </div>
 
-    <div class="grid-container">
-
-        <div class="item" style="grid-area: box-1">
-            <ul>
-                <img src="#">
-                <button class="option-btn" data-question="q10" data-scores="">Option 1</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-2">
-            <ul>
-                <img src="#">
-                <button class="option-btn" data-question="q10" data-scores="">Option 2</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-3">
-            <ul>
-                <img src="#">
-                <button class="option-btn" data-question="q10" data-scores="">Option 3</button>
-            </ul>
-        </div>
-
-        <div class="item" style="grid-area: box-4">
-            <ul>
-                <img src="#">
-                <button class="option-btn" data-question="q10" data-scores="">Option 4</button>
-            </ul>
-        </div>
-
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/rain.jpeg">
+        <button class="option-btn" data-question="q5" data-scores="3">It is raining. I am wet. This is just how Tuesday is.</button>
+      </ul>
     </div>
+
+  </div>
+
+  <div>
+    <h2 class="Q">If you were a color which one would you be?</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/green.png">
+        <button class="option-btn" data-question="q6" data-scores="4">Neon Green</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/beige.jpeg">
+        <button class="option-btn" data-question="q6" data-scores="3">beige</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/grey.png">
+        <button class="option-btn" data-question="q6" data-scores="2">Misty Grey</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/gold.jpeg">
+        <button class="option-btn" data-question="q6" data-scores="5">Gold</button>
+      </ul>
+    </div>
+
+  </div>
+
+  <div>
+    <h2 class="Q">What is your "Final Boss" music</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/piano.jpeg">
+        <button class="option-btn" data-question="q7" data-scores="4">Phantom of The Opera</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/violin.jpeg">
+        <button class="option-btn" data-question="q7" data-scores="5">Dramatic Violin</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/silence.jpeg">
+        <button class="option-btn" data-question="q7" data-scores="3">Silence with an ocassional cricket</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/elevator.jpeg">
+        <button class="option-btn" data-question="q7" data-scores="2">Elevator music</button>
+      </ul>
+    </div>
+
+  </div>
+
+  <div>
+    <h2 class="Q">What loot would you drop if you died(like in minecraft lol)</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/trinkets.jpeg">
+        <button class="option-btn" data-question="q8" data-scores="4">My trinkets</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/selfcare.jpeg">
+        <button class="option-btn" data-question="q8" data-scores="5">My self care items</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/work.jpeg">
+        <button class="option-btn" data-question="q8" data-scores="2">My work equipment</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/nothing.jpeg">
+        <button class="option-btn" data-question="q8" data-scores="3">I wouldn't drop anything</button>
+      </ul>
+    </div>
+
+  </div>
+
+  <div>
+    <h2 class="Q">Pick a dream house</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/house.jpeg">
+        <button class="option-btn" data-question="q9" data-scores="3">A simple house</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/cottage.jpeg">
+        <button class="option-btn" data-question="q9" data-scores="2">A cottage</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/castle.jpeg">
+        <button class="option-btn" data-question="q9" data-scores="4">A castle</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/penthouse.jpeg">
+        <!-- ✅ FIX: added a score (choose 2–5). I set it to 5 as a placeholder -->
+        <button class="option-btn" data-question="q9" data-scores="5">A penthouse</button>
+      </ul>
+    </div>
+
+  </div>
+
+  <div>
+    <h2 class="Q">What is your "Ancient Curse"?</h2>
+  </div>
+
+  <div class="grid-container">
+
+    <div class="item" style="grid-area: box-1">
+      <ul>
+        <img src="src/awkward.jpeg">
+        <button class="option-btn" data-question="q10" data-scores="2">You can only speak the truth, even when it’s super awkward.</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-2">
+      <ul>
+        <img src="src/mirror.jpeg">
+        <button class="option-btn" data-question="q10" data-scores="5">You look stunning, but every mirror you look into eventually cracks</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-3">
+      <ul>
+        <img src="src/scared.jpeg">
+        <button class="option-btn" data-question="q10" data-scores="4">Everything you build or fix eventually gains a mind of its own.</button>
+      </ul>
+    </div>
+
+    <div class="item" style="grid-area: box-4">
+      <ul>
+        <img src="src/seagull.jpeg">
+        <button class="option-btn" data-question="q10" data-scores="3">You are constantly followed by a single, very confused seagull.</button>
+      </ul>
+    </div>
+
+  </div>
+
+
+  <div class="results-area">
+    <button id="show-results" class="option-btn">Show Results</button>
+    <p id="score-display">Score: 0</p>
+    <div id="result-display"></div>
+  </div>
 
 </body>
-
 </html>
